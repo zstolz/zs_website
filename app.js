@@ -207,10 +207,10 @@ $(window).scroll(function () {
 		$('.navbar').css('padding', '5px 0px');
 		$('.navbar a').hover(	
 			function () {
-			$(this).css({"color":"white"});
+			$(this).css({'color':'white'});
 			}, 	
 			function () {
-			$(this).css({"color":"lightgrey"});
+			$(this).css({'color':'lightgrey'});
 			}
 	 	);
 	} else {
@@ -221,10 +221,10 @@ $(window).scroll(function () {
 		$('.navbar').css('padding', '20px 0px');
 		$('.navbar a').hover(	
 			function () {
-			$(this).css({"color":"#2E3B31"});
+			$(this).css({'color':'white'});
 			}, 
 			function () {
-			$(this).css({"color":"#343a40"});
+			$(this).css({'color':'#343a40'});
 			}
 	 	);		 
   	}

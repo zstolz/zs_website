@@ -38,7 +38,7 @@ html {
 
 
 .navbar a:hover {
-  color: white ;
+  color: white !important;
   border-bottom: 3px dotted #78877B;
 }
 
@@ -49,17 +49,18 @@ html {
 
 .navbar a {
   color: #343a40 ;
+  font-weight: 500;
 }
 
 
 body {
   position: relative;
   // background-color: lightgray;
-  // background-image: url('assets/favicon.png');
-  // background-repeat: no-repeat;
-  // background-attachment: fixed;
-  // background-position: center;
-  // background-size: contain;
+  background-image: url('assets/_JLC9192.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .jobTitle {
@@ -228,7 +229,8 @@ label {
 }
 
 .background {
-  background-color: #f8f9fa;
+  background-color: rgba(248,249,250, 0.6);
+  // opacity: 0.5;
   // background-image: url('assets/backgroundImg.png');
   // background-repeat: no-repeat;
   // background-attachment: fixed;
