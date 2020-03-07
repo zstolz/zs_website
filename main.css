@@ -10822,6 +10822,7 @@ body {
   padding: 5%;
   margin: 5%;
   color: #343a40;
+  text-shadow: 2px 2px 4px #343a40;
 }
 
 .jobTitle h1 {
@@ -10900,18 +10901,19 @@ body {
 
 .alert {
   text-align: center;
-  font-family: poppins;
+  font-family: raleway;
   font-size: larger;
   font-weight: 600;
   padding: 4px 8px;
   margin-top: 20px !important;
-  color: #f71a0f;
+  color: #AB0D05;
   border-color: transparent;
   background-color: transparent;
+  text-shadow: 1px 1px 2px #343a40;
 }
 
 .alert > button > span {
-  color: #f71a0f;
+  color: #AB0D05;
 }
 
 hr {
@@ -10950,7 +10952,7 @@ label {
 }
 
 .links a > i:hover {
-  color: #2E3B31;
+  color: #343a40;
 }
 
 .reference-icon-pdf,
@@ -10958,7 +10960,7 @@ label {
 .reference-icon-fb,
 .reference-icon-inst,
 .reference-icon-flickr {
-  color: #78877B;
+  color: #4B544D;
 }
 
 .skills-title {

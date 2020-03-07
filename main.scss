@@ -55,7 +55,6 @@ html {
 
 body {
   position: relative;
-  // background-color: lightgray;
   background-image: url('assets/_JLC9192.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,7 +69,7 @@ body {
   padding: 5%;
   margin: 5%;
   color: #343a40;
-  // text-shadow: 2px 2px 4px whitesmoke;
+  text-shadow: 2px 2px 4px #343a40;
 }
 
 .jobTitle h1{
@@ -155,18 +154,20 @@ body {
 // error alerts
 .alert {
   text-align: center;
-  font-family: poppins;
+  font-family: raleway;
   font-size: larger;
   font-weight: 600;
   padding: 4px 8px;
   margin-top: 20px !important;
-  color: #f71a0f;
+  color: #AB0D05;
+  // color: #f71a0f;
   border-color: transparent;
   background-color: transparent;
+  text-shadow: 1px 1px 2px #343a40;
 }
 
 .alert>button>span {
-  color: #f71a0f;
+  color: #AB0D05;
 }
 
 //form styles
@@ -208,15 +209,16 @@ label {
 }
 
 .links a>i:hover {
-  color: #2E3B31;
+  color: #343a40;
 }
 
-  .reference-icon-pdf,
-  .reference-icon-in,
-  .reference-icon-fb,
-  .reference-icon-inst,
-  .reference-icon-flickr {
-    color: #78877B;
+
+.reference-icon-pdf,
+.reference-icon-in,
+.reference-icon-fb,
+.reference-icon-inst,
+.reference-icon-flickr {
+    color: #4B544D;
   }
 
 //skill style section 
@@ -230,12 +232,6 @@ label {
 
 .background {
   background-color: rgba(248,249,250, 0.6);
-  // opacity: 0.5;
-  // background-image: url('assets/backgroundImg.png');
-  // background-repeat: no-repeat;
-  // background-attachment: fixed;
-  // background-position: top;
-  // background-size: contain;
 }
 
 .mySkills {
