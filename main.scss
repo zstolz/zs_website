@@ -3,8 +3,6 @@ $theme-colors: (
   "danger": #f71a0f
 );
 
-// $border-radius: .5 rem;
-
 // override must go before the import and then recompiled!
 
 @import "node_modules/bootstrap/scss/bootstrap";

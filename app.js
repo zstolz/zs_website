@@ -13,8 +13,6 @@ const submitBtn = document.getElementById('submitBtn');
 const userInput = document.getElementsByTagName('input');
 const shortMessageAlert = document.getElementById('shortMessageAlert');
 
-// const userInputTextArea = document.getElementsByTagName('textarea');
-
 // regular expresstions used for verifying inputs
 const lettersOnly = /^[A-Za-z]+$/;
 const numbersOnly = /^[0-9]+$/;
@@ -69,7 +67,6 @@ const focusBlurHandler = (input, alert) => {
 
 focusBlurHandler(firstNameNode, firstNameAlert);
 focusBlurHandler(lastNameNode, lastNameAlert);
-// focusBlurHandler(phoneNode, phoneNumberAlert);
 focusBlurHandler(emailNode, emailAlert);
 focusBlurHandler(messageNode, messageAlert);
 
@@ -98,6 +95,7 @@ const disableSubmitBtnHandler = () => {
 
 // clears user input from the form when there is an error
 // const clearUserInputHandler = () => {
+// const userInputTextArea = document.getElementsByTagName('textarea');
 // 	for (let i = 0; i < userInput.length; i++) {
 // 		if (userInput[i].classList.contains('is-invalid')) {
 // 			userInput[i].value = '';
@@ -169,16 +167,16 @@ const contactFormEventHandler = (event) => {
 				removeInvalidInputHandler(emailNode, emailAlert);
 			}
 			break;
-		case phoneNode:																			// also could of used
-			if (isNaN(phoneNode.value)) {           											// !phoneNode.value.match(numbersOnly)
-				// addInvalidInputHandler(phoneNode);											// phoneNode.value.trim() === '' || 
+		case phoneNode:																			
+			if (isNaN(phoneNode.value)) {           											
+				// addInvalidInputHandler(phoneNode);											 
 				addInvalidInputAlert(phoneNode, phoneNumberAlert);
 			} else {
 				removeInvalidInputHandler(phoneNode, phoneNumberAlert);
 			}
 			break;
-		case messageNode:																		// also could have used
-			if (messageNode.value.trim() === '') {												// messageNode.value.length === 0
+		case messageNode:																		
+			if (messageNode.value.trim() === '') {												
 				// addInvalidInputHandler(messageNode);
 				addInvalidInputAlert(messageNode, messageAlert);
 				removeInvalidInputHandler(messageNode, shortMessageAlert);
