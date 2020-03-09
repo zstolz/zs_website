@@ -90,7 +90,6 @@ body {
 }
 
 #missionStatementSection {
-  height: 403.19px; 
   font-size: large;
 }
 
@@ -120,7 +119,9 @@ body {
   width: 635px;
 }
 
-.modal-body {
+.modal-content {
+  color: #ffffff;
+  background-color: #343a40;
   font-size: large;
 }
 
@@ -214,7 +215,7 @@ label {
 }
 
 .links a>i:hover {
-  color: #343a40;
+  color: #ffffff;
 }
 
 
@@ -319,5 +320,11 @@ label {
   .formatLastName{
     padding-left: 0px;
   }
-
 } 
+
+@media screen and (max-width: 483px) {
+  .portrait-Img {
+    height: 250px;
+    width: 350px;
+  } 
+}

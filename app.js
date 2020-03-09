@@ -224,7 +224,7 @@ $(window).scroll(function () {
 			$(this).css({'color':'#78877B'});
 			}, 
 			function () {
-			$(this).css({'color':'#78877B'});
+			$(this).css({'color':'#ffffff'});
 			}
 	 	);		 
   	}
