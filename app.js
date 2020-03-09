@@ -203,28 +203,28 @@ $(window).scroll(function () {
 	if ($(window).scrollTop() > 50) {
 		$('.navbar').addClass('bg-dark');
 		$('.navbar').addClass('navbar-dark');
-		$('.navbar a').css('color','lightgrey');
+		$('.navbar a').css('color','#ffffff');
 		$('.navbar').css('padding', '5px 0px');
 		$('.navbar a').hover(	
 			function () {
-			$(this).css({'color':'white'});
+			$(this).css({'color':'#78877B'});
 			}, 	
 			function () {
-			$(this).css({'color':'lightgrey'});
+			$(this).css({'color':'#ffffff'});
 			}
 	 	);
 	} else {
 		$('.navbar').css('background','transparent');
-		$('.navbar a').css('color','#343a40');
+		$('.navbar a').css('color','#ffffff');
 		$('.navbar').removeClass('bg-dark');
 		$('.navbar').removeClass('navbar-dark');
 		$('.navbar').css('padding', '20px 0px');
 		$('.navbar a').hover(	
 			function () {
-			$(this).css({'color':'white'});
+			$(this).css({'color':'#78877B'});
 			}, 
 			function () {
-			$(this).css({'color':'#343a40'});
+			$(this).css({'color':'#78877B'});
 			}
 	 	);		 
   	}
