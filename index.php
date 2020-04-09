@@ -49,7 +49,7 @@ if($_POST["submit"]) {
     </button>
     <div class="collapse navbar-collapse" id="navbarMenu">
       <ul class="navbar-nav ml-auto pl-3  mr-3">
-        <li class="nav-item px-2"><a href="assets/Zack_Stolz_Resume.pdf" target="_blank" class="nav-link"
+        <li class="nav-item px-2"><a href="assets/Zack-Stolz-Resume.PDF" target="_blank" class="nav-link"
             id="resume">Resume</a></li>
         <li class="nav-item px-2"><a href="#titleSection" class="nav-link">Title</a></li>
         <li class="nav-item px-2"><a href="#skillsSection" class="nav-link">Skills</a></li>
@@ -68,7 +68,7 @@ if($_POST["submit"]) {
       <div class="row justify-content-center">
         <div class="col">
           <div class="jobTitle">
-            <h1>Junior Web Developer</h1>
+            <h1>Junior Web Dev & IT Ops</h1>
           </div>
         </div>
       </div>
@@ -86,8 +86,7 @@ if($_POST["submit"]) {
           <p class="ms">
             Skilled Technologist with experience configuring computers, servers and peripheral devices to work within
             established company and security parameters. I'm a licensed Drone Pilot with a clear understanding of System
-            Administration and IT Ops with
-            online training in Web Development. Motivated to learn, grow and excel in a Development role.
+            Administration and IT Ops with online training in Web Development. Motivated to learn, grow and excel in a IT Ops/Development role.
           </p>
         </div>
       </div>
@@ -107,7 +106,7 @@ if($_POST["submit"]) {
                 alt="First slide">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Atlanta, Ga</h5>
-                <p>The city I currently call home</p>
+                <p>Born & Raised</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -115,7 +114,7 @@ if($_POST["submit"]) {
                 alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Technologist</h5>
-                <p>Junior Web Developer</p>
+                <p>IT Ops & Junior Web Developer</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -245,8 +244,8 @@ if($_POST["submit"]) {
           <h2>About</h2>
           <hr class="mx-2">
           <p class="bio mb-3">
-            Hello, my name is Zack Stolz. I'm a self-taught developer, guitarist, aerial photographer, and a huge travel
-            enthusiast. You can usually find me at a coffee shop writing code, at home shredding on the axe, out hiking
+            Hello, my name is Zack Stolz. I'm a self-taught web developer, guitarist, aerial photographer, and a huge travel
+            enthusiast. You can usually find me at a coffee shop working on one of my projects, at home shredding on the axe, out hiking
             with my drone and camera gear (e.g. my background image) or organizing yet another wild itinerary.
             Regardless of which one you may find my attention on I'm always actively seeking out ways to improve my
             skills! My ability to learn quickly and acclimate to new cultures has enabled me to be open to endless
@@ -287,10 +286,10 @@ if($_POST["submit"]) {
             and became a certified drone pilot. I was soon hired as an IT Ops Specialist at one of Atlanta’s top
             workplace headquarters, which really allowed my tech interests to flourish. My role in IT enabled me to
             become well-rounded in the industry, mastering the ins and outs of corporate IT operations and system
-            administration. I continue to purse various technology interests and self-train in all my endeavors, whether
+            administration. I continue to pursue various technology interests and self-train in all my endeavors, whether
             through projects on the side or online coursework/research programs like Treehouse and Udemy. I am eager to
-            continually explore new technology and expand my education in web development. I am excited by the prospect
-            of the new opportunities and endless possibilities offered in this field.
+            continually explore new technology and expand my education in both web development and the IT industy as whole. 
+            I am excited by the prospect of the new opportunities and endless possibilities offered in this field.
           </p>
         </div>
         <div class="modal-footer">
@@ -453,7 +452,7 @@ if($_POST["submit"]) {
         <div class="row row-container">
           <div class="col footer-container">
             <div class="links" data-toggle="tooltip" data-placement="top" title="My Resume">
-              <a href="assets/Zack_Stolz_Resume.pdf" target="_blank"><i
+              <a href="assets/Zack-Stolz-Resume.PDF" target="_blank"><i
                   class="far fa-file-pdf fa-lg reference-icon-pdf"></i></a>
             </div>
           </div>
@@ -473,6 +472,12 @@ if($_POST["submit"]) {
             <div class="links" data-toggle="tooltip" data-placement="top" title="My Instagram Page">
               <a href="https://www.instagram.com/zacktheitinerant/" target="_blank"><i
                   class="fab fa-instagram fa-lg reference-icon-inst"></i></a>
+            </div>
+          </div>
+          <div class="col footer-container">
+            <div class="links" data-toggle="tooltip" data-placement="top" title="My YouTube Channel">
+              <a href="https://www.youtube.com/channel/UCuit_EAbz977aewEaDL6Gxg" target="_blank"><i
+                  class="fab fa-youtube fa-lg reference-icon-youtube"></i></a>
             </div>
           </div>
           <div class="col footer-container">
